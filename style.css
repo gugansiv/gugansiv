@@ -1,90 +1,90 @@
 .frame {
+  height: 92px;
   position: relative;
   width: 1440px;
-  height: 92px;
 }
 
 .frame .navbar {
-  position: absolute;
-  width: 363px;
   height: 92px;
-  top: -1px;
   left: 906px;
+  position: absolute;
+  top: -1px;
+  width: 363px;
 }
 
 .frame .text-wrapper {
-  left: 0;
   color: #f4fa1a;
-  position: absolute;
-  width: 102px;
-  height: 92px;
-  top: 0;
   font-family: "Roboto Slab-Black", Helvetica;
-  font-weight: 900;
   font-size: 20px;
-  text-align: center;
+  font-weight: 900;
+  height: 92px;
+  left: 0;
   letter-spacing: 0;
   line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 102px;
 }
 
 .frame .div {
-  left: 79px;
   color: #ffffff;
-  position: absolute;
-  width: 102px;
-  height: 92px;
-  top: 0;
   font-family: "Roboto Slab-Black", Helvetica;
-  font-weight: 900;
   font-size: 20px;
-  text-align: center;
+  font-weight: 900;
+  height: 92px;
+  left: 79px;
   letter-spacing: 0;
   line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 102px;
 }
 
 .frame .text-wrapper-2 {
-  left: 169px;
   color: #ffffff;
-  position: absolute;
-  width: 102px;
-  height: 92px;
-  top: 0;
   font-family: "Roboto Slab-Black", Helvetica;
-  font-weight: 900;
   font-size: 20px;
-  text-align: center;
+  font-weight: 900;
+  height: 92px;
+  left: 169px;
   letter-spacing: 0;
   line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 102px;
 }
 
 .frame .text-wrapper-3 {
-  left: 261px;
   color: #ffffff;
-  position: absolute;
-  width: 102px;
-  height: 92px;
-  top: 0;
   font-family: "Roboto Slab-Black", Helvetica;
-  font-weight: 900;
   font-size: 20px;
-  text-align: center;
+  font-weight: 900;
+  height: 92px;
+  left: 261px;
   letter-spacing: 0;
   line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 102px;
 }
 
 .frame .portfolio {
-  position: absolute;
-  width: 140px;
-  height: 92px;
-  top: -1px;
-  left: 71px;
-  font-family: "Roboto Slab-Black", Helvetica;
-  font-weight: 900;
   color: transparent;
+  font-family: "Roboto Slab-Black", Helvetica;
   font-size: 20px;
-  text-align: center;
+  font-weight: 900;
+  height: 92px;
+  left: 71px;
   letter-spacing: 0;
   line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 140px;
 }
 
 .frame .span {
@@ -96,16 +96,16 @@
 }
 
 .frame .text-wrapper-5 {
-  position: absolute;
-  width: 102px;
-  height: 92px;
-  top: -1px;
-  left: 1269px;
-  font-family: "Roboto Slab-Black", Helvetica;
-  font-weight: 900;
   color: #ffffff;
+  font-family: "Roboto Slab-Black", Helvetica;
   font-size: 20px;
-  text-align: center;
+  font-weight: 900;
+  height: 92px;
+  left: 1269px;
   letter-spacing: 0;
   line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 102px;
 }
