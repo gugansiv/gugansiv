@@ -1,111 +1,71 @@
-.frame {
-  height: 92px;
-  position: relative;
-  width: 1440px;
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
 }
-
-.frame .navbar {
-  height: 92px;
-  left: 906px;
-  position: absolute;
-  top: -1px;
-  width: 363px;
+.header {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
 }
-
-.frame .text-wrapper {
-  color: #f4fa1a;
-  font-family: "Roboto Slab-Black", Helvetica;
-  font-size: 20px;
-  font-weight: 900;
-  height: 92px;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 102px;
+.hero {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 96px;
+  align-items: flex-start;
+  justify-content: center;
 }
-
-.frame .div {
-  color: #ffffff;
-  font-family: "Roboto Slab-Black", Helvetica;
-  font-size: 20px;
-  font-weight: 900;
-  height: 92px;
-  left: 79px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 102px;
+.image {
+  width: 100%;
+  height: 713px;
+  object-fit: cover;
 }
-
-.frame .text-wrapper-2 {
-  color: #ffffff;
-  font-family: "Roboto Slab-Black", Helvetica;
-  font-size: 20px;
-  font-weight: 900;
-  height: 92px;
-  left: 169px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 102px;
+.features {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.frame .text-wrapper-3 {
-  color: #ffffff;
-  font-family: "Roboto Slab-Black", Helvetica;
-  font-size: 20px;
-  font-weight: 900;
-  height: 92px;
-  left: 261px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 102px;
+.pricing {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.frame .portfolio {
-  color: transparent;
-  font-family: "Roboto Slab-Black", Helvetica;
-  font-size: 20px;
-  font-weight: 900;
-  height: 92px;
-  left: 71px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: -1px;
-  width: 140px;
+.banner {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.frame .span {
-  color: #ffffff;
+.faq {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.frame .text-wrapper-4 {
-  color: #f4fa1a;
-}
-
-.frame .text-wrapper-5 {
-  color: #ffffff;
-  font-family: "Roboto Slab-Black", Helvetica;
-  font-size: 20px;
-  font-weight: 900;
-  height: 92px;
-  left: 1269px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: -1px;
-  width: 102px;
+.footer {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
